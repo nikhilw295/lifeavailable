@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Life Progress Tracker</h1>
+        <label for="age">Current Age:</label>
+        <input type="number" id="age" placeholder="Enter your age">
+
+        <label for="lifeExpectancy">Expected Life:</label>
+        <input type="number" id="lifeExpectancy" placeholder="Expected lifespan">
+
+        <button onclick="generateBoxes()">Generate</button>
+
+        <div id="lifeGrid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
